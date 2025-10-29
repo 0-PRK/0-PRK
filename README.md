@@ -77,5 +77,3 @@ Python · TypeScript/JavaScript · C++ · SQL · FastAPI · SQLAlchemy · Postgr
 
 ---
 
-## A little fun
-Coffee + clean logs + green CI = good day. If we can’t reproduce it twice, it didn’t happen 🙂
