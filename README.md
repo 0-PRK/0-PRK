@@ -1,10 +1,10 @@
 # Hi, I'm Pranaw Raj Kafle
 
-Backend + Data/ML engineer who ships practical systems: APIs and data pipelines in Python/TypeScript, reproducible ML experiments, and performance‑minded builds with C++/CMake. I like clean automation, reliable tooling, and small wins that compound.
+**DevOps Engineer** specializing in building production-grade infrastructure, implementing zero-trust security, and automating deployment pipelines. I focus on Infrastructure as Code (IaC), GitOps practices, and managing secure, scalable data systems.
 
 - Kathmandu, Nepal
 - Email: [pranawrajkafle.prk@gmail.com](mailto:pranawrajkafle.prk@gmail.com)
-- LinkedIn: [linkedin.com/in/pranawrajkafle](https://www.linkedin.com/in/pranawrajkafle)
+- LinkedIn: [linkedin.com/in/pranaw-raj-kafle](https://www.linkedin.com/in/pranaw-raj-kafle)
 - GitHub: [0-PRK](https://github.com/0-PRK)
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-0c66ff.svg)](https://github.com/0-PRK)
@@ -13,58 +13,47 @@ Backend + Data/ML engineer who ships practical systems: APIs and data pipelines 
 ---
 
 ## What I'm focused on
-- Data/ML analysis, backend engineering, and DevOps automation (full‑stack only when backend‑heavy)
-- Reproducible ML and performance: CMake, benchmarks, consistent data pipelines
-- Practical CLI tools and scripts that save time and reduce toil
+- **Infrastructure as Code (IaC):** Provisioning and managing cloud resources using Terraform and AWS.
+- **GitOps & Orchestration:** Deploying and managing applications with Kubernetes and ArgoCD.
+- **Security & Secret Management:** Implementing zero-trust architectures and secure credential rotation using HashiCorp Vault.
+- **CI/CD Automation:** Building robust pipelines with Jenkins and GitHub Actions to reduce deployment toil.
 
 ## Tech I use (short list)
-Python · TypeScript/JavaScript · C++ · SQL · FastAPI · SQLAlchemy · PostgreSQL · Docker · Git · Jupyter · scikit‑learn · pandas · CMake · CLI tooling
-
----
-
-## Selected projects
-
-- JB‑Website (private; client) — Full‑stack TypeScript backend for a CA firm  
-  Led a 2‑person build from requirements to launch; REST endpoints + data models.  
-  Note: Client‑confidential; demo/overview on request.
-
-- BusMan‑KU (private; in development) — University bus management backend  
-  Data models (users, routes, schedules, bookings), REST APIs, validation.  
-  Note: Private pre‑launch; overview on request.
-
-- NEPSE‑Edge (private) — Personal portfolio tracker and signals  
-  Ingests companies, prices, floorsheet; PostgreSQL + FastAPI analysis.  
-  Note: Private; summary/backtest results on request.
-
-- sortPhoto — Python CLI for media organization and cleanup  
-  EXIF/metadata sorting, duplicate detection, junk cleanup.  
-  Repo: https://github.com/0-PRK/sortPhoto
-
-- Drug‑Protein‑Interaction — ML notebooks for DTI prediction  
-  5‑fold CV; reports Accuracy/Precision/Recall/AUC/AUPR.  
-  Repo: https://github.com/0-PRK/Drug-Protein-Interaction
-
-- ColorRize — Image colorization with PSNR/SSIM evaluation  
-  Trained on CIFAR‑10 and Places365 subsets; qualitative+quantitative eval.  
-  Repo: https://github.com/0-PRK/ColorRize
-
-- Selecto — Web scraping + NLP (sentiment and summarization)  
-  Selenium (anti‑bot/captcha), MongoDB ETL, RoBERTa sentiment, DistilBART summaries.  
-  Repo: https://github.com/RbMo7/selecto
-
-- ProjectBlueSky — Performance & reproducibility  
-  C++ extensions integrated with Python; cross‑platform CMake builds.  
-  Repo: https://github.com/RbMo7/ProjectBlueSky
-
-- LibMan — C++ backend for library management (QMake)  
-  Data structures, persistence, validation.  
-  Repo: https://github.com/aavashlamichhane/LibMan
+Kubernetes · Terraform · ArgoCD · HashiCorp Vault · Docker · Jenkins · AWS · Linux/Bash · Python (FastAPI) · Java (Spring Boot) · Nginx · Cloudflare Tunnels
 
 ---
 
 ## Experience
-- Legalities Lead — IT Meet, Kathmandu University (Jun 2024 – Dec 2024)  
+- **DevOps Engineer** — Trust Bridge Capital (Jan 2025 – Present)  
+  Designing scalable cloud infrastructure and automating deployment workflows to support financial data systems. Implementing CI/CD pipelines and managing secure environment configurations.
+- **Legalities Lead** — IT Meet, Kathmandu University (Jun 2024 – Dec 2024)  
   Drafted and executed 40+ MOUs; primary POC for legal docs and contracts.
+
+---
+
+## Selected Projects
+
+- **Enterprise DevOps Lab** — Kubernetes + ArgoCD + Vault  
+  Orchestrated deployments using Kubernetes and ArgoCD for GitOps-driven delivery. Implemented HashiCorp Vault with Spring Boot for dynamic secrets and automatic credential rotation.  
+  Repo: [0-PRK/enterprise-devops-lab](https://github.com/0-PRK/enterprise-devops-lab)
+
+- **Infra-Playground** — Terraform + AWS  
+  Built reusable Terraform modules to provision AWS EC2 instances, VPCs, and Security Groups. Configured CloudWatch monitoring and enforced least-privilege security principles.  
+  Repo: [0-PRK/infra-playground](https://github.com/0-PRK/infra-playground)
+
+- **BusMan-KU** — Jenkins + Docker + Vault  
+  Built a robust CI/CD pipeline using Jenkins, deploying artifacts to a remote Ubuntu server via Cloudflare Tunnels. Integrated Vault for secure environment variable isolation.
+
+- **JB-Website (jb.com.np)** — GitHub Actions + Nginx + SSL/TLS  
+  Built GitHub Actions CI/CD pipeline for automated testing and deployment. Configured Nginx as a reverse proxy with SSL/TLS for secure HTTPS connections.  
+  Live: [jb.com.np](https://jb.com.np)
+
+- **Selecto** — Docker Multi-stage Builds  
+  Implemented Docker multi-stage builds, reducing final image size by 60% and optimizing layer caching for faster CI cycles.  
+  Repo: [RbMo7/selecto](https://github.com/RbMo7/selecto)
+
+- **NEPSE-Edge** — Large-scale Data Ingestion  
+  Optimized PostgreSQL for ingesting ~81M trade records. Automated daily ETL pipelines to sync external APIs with real-time signal generation.
 
 ---
 
@@ -74,6 +63,3 @@ Python · TypeScript/JavaScript · C++ · SQL · FastAPI · SQLAlchemy · Postgr
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=0-PRK&layout=compact&theme=transparent)
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=0-PRK&theme=onedark&no-frame=true&column=6)](https://github.com/ryo-ma/github-profile-trophy)
-
----
-
